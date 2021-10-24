@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f8f8fa;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-inline-size: 100%;
+}
+
+.material-icons-outlined {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+.container {
+  margin: auto;
+  max-inline-size: 1040px;
+  padding-inline-end: 15px;
+  padding-inline-start: 15px;
+}
+
+.header {
+  margin-block-start: 15px;
+  margin-block-end: 20px;
+}
+.header .header-content {
+  align-items: center;
+  color: #3456ff;
+  display: flex;
+  justify-content: space-between;
+}
+.header .header-content .logo img {
+  border-radius: 8px;
+}
+.header .menu {
+  display: none;
+}
+
+.section-hero {
+  margin-block-end: 40px;
+}
+.section-hero .hero-content img {
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-info .info-content {
+  color: #070928;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.main-info .info-content h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-info .info-content p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/*# sourceMappingURL=main.css.map */

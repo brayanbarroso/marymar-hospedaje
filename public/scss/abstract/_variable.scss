@@ -1,0 +1,21 @@
+$background: #f8f8fa;
+$text: #070928;
+$button: #3456ff;
+$text-button: #ffffff;
+
+$roboto: "Roboto", sans-serif;
+$lato: "Lato", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $background;
+  font-family: $roboto;
+}
+
+img {
+  max-inline-size: 100%;
+}

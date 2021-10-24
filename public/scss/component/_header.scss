@@ -1,0 +1,19 @@
+.header {
+  margin-block-start: 15px;
+  margin-block-end: 20px;
+
+  .header-content {
+    align-items: center;
+    color: $button;
+    display: flex;
+    justify-content: space-between;
+
+    .logo img {
+      border-radius: 8px;
+    }
+  }
+
+  .menu {
+    display: none;
+  }
+}
