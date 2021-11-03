@@ -46,6 +46,8 @@ img {
   background: #f8f8fa;
   margin-block-start: 15px;
   margin-block-end: 20px;
+  position: sticky;
+  top: 0;
 }
 .header .header-content {
   align-items: center;
@@ -126,7 +128,7 @@ img {
   margin-block-end: 40px;
 }
 .section-hero .hero-content img {
-  border-radius: 0 0 8px 8px;
+  border-radius: 8px;
   box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
 }
 
@@ -199,6 +201,12 @@ img {
   text-decoration: none;
 }
 
+@media only screen and (min-width: 768px) {
+  .section-card .card-content {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
 .section-parallax {
   margin-block-end: 40px;
   margin-block-start: 40px;
@@ -209,10 +217,12 @@ img {
   height: 400px;
   justify-content: center;
   position: relative;
+  z-index: -1;
 }
 .section-parallax .content-parallax::before {
   content: "";
   background-image: url("../image/Parallax.jpg");
+  border-radius: 8px;
 }
 .section-parallax .parallax::before {
   height: 100%;

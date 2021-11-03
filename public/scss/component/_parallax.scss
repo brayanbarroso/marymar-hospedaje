@@ -8,10 +8,12 @@
     height: 400px;
     justify-content: center;
     position: relative;
+    z-index: -1;
 
     &::before {
       content: "";
       background-image: url("../image/Parallax.jpg");
+      border-radius: 8px;
     }
   }
 

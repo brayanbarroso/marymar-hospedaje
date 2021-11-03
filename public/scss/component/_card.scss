@@ -52,3 +52,12 @@
     }
   }
 }
+
+@media only screen and(min-width:768px) {
+  .section-card {
+    .card-content {
+      flex-direction: row;
+      gap: 40px;
+    }
+  }
+}
