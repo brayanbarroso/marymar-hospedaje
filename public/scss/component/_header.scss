@@ -57,8 +57,12 @@
 
             &:hover {
               color: #0ba5ec;
-              text-decoration: underline;
+              border-bottom: 2px solid $button;
             }
+          }
+
+          a.is_active {
+            border-bottom: 2px solid $button;
           }
         }
       }
